@@ -1,0 +1,30 @@
+exportPattern("^[[:alpha:]]+")
+
+#### export of public functions:
+export(concord, coxphw,  wald, coxphw.control, PT, fp.power)
+#export(powM2,powM1, powM0.5, pow2, pow3, RI, RpowM2, RpowM1, RpowM0.5, Rlog, Rsqrt, Rpow2, Rpow3, plotshape)
+
+#### import from other packages:
+importFrom("survival","survfit","Surv")   # survfit von survival Surv
+importFrom("graphics", "abline","legend","lines", "plot")
+importFrom("stats","as.formula", "coef", "confint", "confint.default",
+           "model.extract", "model.frame", "model.matrix", "na.omit",
+		   "pchisq", "prcomp", "predict", "qchisq", "qnorm",
+		   "quantile", "sd","terms.formula")
+importFrom("utils","getFromNamespace")
+
+
+#### definition of S3 methods:
+S3method(print, coxphw)
+S3method(summary, coxphw)
+S3method(coef, coxphw)
+S3method(vcov, coxphw)
+S3method(confint, coxphw)
+S3method(plot, coxphw)
+S3method(predict, coxphw)
+
+S3method(plot, coxphw.predict)
+S3method(print, coxphw.predict)
+
+#### register shared objects (Fortran DLL):
+useDynLib(coxphw, .registration = TRUE)

@@ -1,0 +1,20 @@
+bibentry(bibtype = "Article",
+  title        = "Weighted Cox Regression Using the {R} Package {coxphw}",
+  author       = c(person(given = "Daniela",
+                          family = "Dunkler"),
+                   person(given = "Meinhard",
+                          family = "Ploner"),
+                   person(given = "Michael",
+                          family = "Schemper"),
+                   person(given = "Georg",
+                          family = "Heinze",
+                          email = "georg.heinze@meduniwien.ac.at")),
+  journal      = "Journal of Statistical Software",
+  year         = "2018",
+  volume       = "84",
+  number       = "2",
+  pages        = "1--26",
+  doi          = "10.18637/jss.v084.i02",
+
+  header       = "To cite coxphw in publications use:"
+)

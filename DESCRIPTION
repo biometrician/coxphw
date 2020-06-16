@@ -1,0 +1,25 @@
+Package: coxphw
+Type: Package
+Title: Weighted Estimation in Cox Regression
+Version: 4.0.2
+Date: 2020-06-16
+Authors@R: c(person("Georg", "Heinze", role=c("aut","cre"), email="georg.heinze@meduniwien.ac.at"),
+           person("Meinhard", "Ploner", role="aut",),
+     		person("Daniela", "Dunkler", role="aut"))
+Description: Implements weighted estimation in Cox regression as proposed by
+             Schemper, Wakounig and Heinze (Statistics in Medicine, 2009, 
+             <doi:10.1002/sim.3623>) and as described in Dunkler, Ploner, Schemper and 
+             Heinze (Journal of Statistical Software, 2018, <doi:10.18637/jss.v084.i02>). 
+             Weighted Cox regression provides unbiased average hazard ratio 
+             estimates also in case of non-proportional hazards. 
+             Approximated generalized concordance probability an effect size measure for clear-cut
+             decisions can be obtained.
+             The package provides options to estimate time-dependent effects conveniently by
+             including interactions of covariates with arbitrary functions of time, with or without
+             making use of the weighting option.
+Depends: R (>= 3.0.2), survival
+Suggests: knitr, rmarkdown, testthat
+NeedsCompilation: yes
+License: GPL-2
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
