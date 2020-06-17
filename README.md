@@ -5,5 +5,5 @@ The package provides options to estimate time-dependent effects conveniently by
 including interactions of covariates with arbitrary functions of time, with or without
 making use of the weighting option.
 
-This package is licensed under GPL-2, and available on CRAN:
+This package is licensed under GPL-3, and available on CRAN:
 <https://cran.r-project.org/package=coxphw>.
