@@ -1,5 +1,3 @@
-exportPattern("^[[:alpha:]]+")
-
 #### export of public functions:
 export(concord, coxphw,  wald, coxphw.control, PT, fp.power)
 #export(powM2,powM1, powM0.5, pow2, pow3, RI, RpowM2, RpowM1, RpowM0.5, Rlog, Rsqrt, Rpow2, Rpow3, plotshape)
