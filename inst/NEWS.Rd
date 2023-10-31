@@ -10,12 +10,20 @@
  %}
 %}
 
- \section{CHANGES \code{coxphw} VERSION 4.0.2 (2020-06-16, compiled under R 4.0.1)}{
- \itemize{
-  \item { add testthat }
-  \item { add information on the sample size in \code{print} and \code{summary} }
-  \item { only observations with missing values in variables mentioned in the formula are deleted. }
-  \item { add option \code{clusterid} in \code{coxphw} }
+\section{CHANGES \code{coxphw} VERSION 4.0.3 (2023-10-31, compiled under R 4.3.1)}{
+   \itemize{
+      \item { changes in coxohw.f90, removed Visual Fortran comments }
+      \item { delete licence file,  spell checking, add link to git, etc. }
+ }
+}
+
+
+\section{CHANGES \code{coxphw} VERSION 4.0.2 (2020-06-16, compiled under R 4.0.1)}{
+   \itemize{
+      \item { add testthat }
+      \item { add information on the sample size in \code{print} and \code{summary} }
+      \item { only observations with missing values in variables mentioned in the formula are deleted. }
+      \item { add option \code{clusterid} in \code{coxphw} }
  }
 }
 

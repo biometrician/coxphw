@@ -1,5 +1,4 @@
 SUBROUTINE WEIGHTEDCOX(cards, parms, IOARRAY, DFBETA)
-!DEC$ ATTRIBUTES DLLEXPORT :: weightedcox
 
 IMPLICIT DOUBLE PRECISION (A-H,O-Z)
 
@@ -346,7 +345,6 @@ SUBROUTINE INVRT(A,IA)
 END
 
 SUBROUTINE INVERT(A,IA,N,B,IFAIL)
-!DEC$ ATTRIBUTES DLLEXPORT :: invert
 
 
 !
@@ -376,7 +374,6 @@ END
 
 SUBROUTINE LIKE(N,IP,X,T1,t2,IC,XL,FD,VM,B,JCODE, ngv, score_weights, ntde,ft, ftmap,ilastlike,offset,ainv, &
 vminv, casew)
-!DEC$ ATTRIBUTES DLLEXPORT :: like
 
  IMPLICIT DOUBLE PRECISION (A-H,O-Z)
  double precision, dimension (IP+ntde,IP+ntde) :: SDa, sdb, SDI, WK,  vm, ainv, vminv
