@@ -28,7 +28,7 @@ License: \tab GPL-2\cr
 
 Main functions included in the \pkg{coxphw} package are
 \tabular{ll}{
-\code{\link{coxphw}}    \tab weigthed estimation of Cox regression: either (recommended) estimation of \cr
+\code{\link{coxphw}}    \tab weighted estimation of Cox regression: either (recommended) estimation of \cr
                         \tab average hazard ratios (Schemper et al., 2009), estimation of average regression \cr
                         \tab effects (Xu and O'Quigley, 2000), or proportional hazards regression. \cr
                         \tab \cr
@@ -62,7 +62,7 @@ Data sets included in the \pkg{coxphw} package are
        and \code{plot.coxphw.predict}. }
 
 \author{Georg Heinze, Meinhard Ploner, Daniela Dunkler \cr
-        {Maintainer: \email{daniela.dunkler@meduniwien.ac.at}} }
+        Maintainer: \email{daniela.dunkler@meduniwien.ac.at} }
 
 \references{Dunkler D, Ploner M, Schemper M, Heinze G. (2018) Weighted Cox Regression Using the {R} Package {coxphw}. \emph{JSS} \bold{84}, 1--26, \doi{10.18637/jss.v084.i02}.
 

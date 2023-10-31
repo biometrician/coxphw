@@ -6,7 +6,7 @@
         \code{coxph} }
 
 \description{ Compute generalized concordance probabilities with accompanying 
-              confidence intervalls for objects of class \code{coxphw} or \code{coxph}. }
+              confidence intervals for objects of class \code{coxphw} or \code{coxph}. }
 
 \usage{ concord(fit, digits = 4) }
         

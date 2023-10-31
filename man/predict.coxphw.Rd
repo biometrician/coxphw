@@ -1,12 +1,12 @@
 \name{predict.coxphw}
 \alias{predict.coxphw}
 
-\title{Predictions for a weigthed Cox model}
+\title{Predictions for a weighted Cox model}
 
 \description{ This function obtains the effect estimates (e.g. of a nonlinear or a
               time-dependent effect) at specified values of a continuous
               covariable for a model fitted by \code{\link{coxphw}}. It prints the
-              relative or log relative hazard. Additonally, the linear predictor lp
+              relative or log relative hazard. Additionally, the linear predictor lp
               or the risk score exp(lp) can be obtained. }
 
 \usage{ \method{predict}{coxphw}(object, type = c("shape", "slice.time", "slice.z", "slice.x", "lp", "risk"),

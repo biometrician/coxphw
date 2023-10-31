@@ -45,7 +45,7 @@
 \author{Georg Heinze, Meinhard Ploner, Daniela Dunkler}
 
 \references{ Royston P and Altman D (1994). Regression Using Fractional Polynomials of Continuous
-Covariates: Parsimonious Parametric Modelling. \emph{Applied StatisticsJ R STAT SOC C-APPL} \bold{43}, 429-467.
+Covariates: Parsimonious Parametric Modelling. \emph{Applied Statistics J R STAT SOC C-APPL} \bold{43}, 429-467.
 
 Royston P and Sauerbrei W (2008). \emph{Multivariable Model-building. A pragmatic approach to regression
 analysis based on fractional polynomials for modelling continuous variables.} Wiley, Chichester, UK. }

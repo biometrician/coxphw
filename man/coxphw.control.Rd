@@ -2,7 +2,7 @@
 
 \alias{coxphw.control}
 
-\title{Ancillary arguments for controling coxphw fits}
+\title{Ancillary arguments for controlling coxphw fits}
 
 \description{
 This is used to set various numeric parameters controlling a Cox model fit using \code{coxphw}.
@@ -15,7 +15,7 @@ coxphw.control(iter.max = 200, maxhs = 5, xconv = 1e-4, gconv = 1e-4, maxstep = 
 }
 \arguments{
   \item{iter.max}{ maximum number of iterations to attempt for convergence. Default is 200. }
-  \item{maxhs}{ maximum number of step-halvings per iterations. Default is 5. The increments of the
+  \item{maxhs}{ maximum number of step-halvenings per iterations. Default is 5. The increments of the
                 parameter vector in one Newton-Rhaphson iteration step are halved, unless the new
                 pseudo-likelihood is greater than the old one, maximally doing \code{maxhs} halvings. }
   \item{xconv}{ specifies the maximum allowed change in standardized parameter estimates to declare
