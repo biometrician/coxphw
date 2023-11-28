@@ -189,7 +189,7 @@ fixed at 1.
 }
 
 \note{ The \code{SAS} macro \code{WCM} with similar functionality is offered for download at
-       \url{http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/wcmcoxphw/} .
+       \url{https://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/wcmcoxphw/} .
 
        Up to Version 2.13 \pkg{coxphw} used a slightly different syntax (arguments: \code{AHR},
        \code{AHR.norobust}, \code{ARE}, \code{PH}, \code{normalize}, \code{censcorr}, \code{prentice},

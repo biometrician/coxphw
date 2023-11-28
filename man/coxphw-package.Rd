@@ -51,7 +51,7 @@ Data sets included in the \pkg{coxphw} package are
 }
 
 \note{ The \code{SAS} macro \code{WCM} with similar functionality can be obtained at \cr
-       \url{http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/wcmcoxphw/}.
+       \url{https://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/wcmcoxphw/}.
 
        Important version changes: \cr
        Up to Version 2.13 \pkg{coxphw} used a slightly different syntax (arguments: \code{AHR}, \code{AHR.norobust},
