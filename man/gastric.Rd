@@ -26,7 +26,7 @@
 \source{ Stablein DM, Carter J, Novak JW. (1981) Analysis of Survival Data with Nonproportional Hazard
 Functions. \emph{Controlled Clinical Trials} \bold{2}:149-159. OR
 
-\url{http://www.mayo.edu/research/documents/gastrichtml/DOC-10027680} }
+\url{https://www.mayo.edu/research/documents/gastrichtml/DOC-10027680} }
 
 \references{  Gastrointestinal Tumor Study Group. (1982) A Comparison of Combination
 Chemotherapy and Combined Modality Therapy for Locally Advanced Gastric Carcinoma. \emph{Cancer}
